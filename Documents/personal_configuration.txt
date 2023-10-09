@@ -1,0 +1,16 @@
+Installierte Software:
+nvim (sudo snap install nvim -classic)
+latex (sudo apt-get install texlive texlive-lang-german texlive-latex-extra)
+git (sudo apt install git)
+zsh (sudo apt install zsh)
+python3 (sudo apt install python3)
+tmux (sudo apt-get install tmux)
+
+Konfigurationen:
+shell auf zsh umgestellt (chsh -s /bin/zsh)
+ssh key generiert (ssh-keygen -t ed25519 -C "robin.ender@icloud.com")
+ssh key hinzugefügt (ssh-add ~/.ssh/id_ed25519)
+github zu known hosts hinzugefügt (ssh-keyscan github.com >> ~/.ssh/known_hosts)
+latex_sources hinzugefügt (git clone git@github.com:asishallab-group/Latex_Sources.git)
+zsh configuration changed - see .zshrc
+mkpdf erstellt und ausführbar gemacht (chmod u+x mkpdf) und in bin abgelegt

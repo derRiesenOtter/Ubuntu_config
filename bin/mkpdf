@@ -1,0 +1,4 @@
+filename=$1
+pdflatex $filename
+rm *log *aux
+evince "${filename%???}"pdf

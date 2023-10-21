@@ -1,4 +1,5 @@
 filename=$1
 pdflatex $filename
-rm *log *aux
-evince "${filename%???}"pdf
+pdflatex $filename
+evince "${filename%???}"pdf &
+rm *log *aux *out *nav *snm *toc

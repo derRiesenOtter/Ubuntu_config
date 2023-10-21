@@ -1,0 +1,5 @@
+{
+  "LuaSnip": { "branch": "master", "commit": "0b4950a237ce441a6a3a947d501622453f6860ea" },
+  "lazy.nvim": { "branch": "main", "commit": "4c75c8eeb957a99aa44ce8e526c04340ab358c5e" },
+  "vim-nightfly-guicolors": { "branch": "master", "commit": "9053e99131731f268258ab4d35d4841c3126ff9a" }
+}

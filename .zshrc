@@ -25,3 +25,6 @@ zstyle ':vcs_info:git:*' formats '%b'
 
 # Syntax Highlighting
 source /home/robin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# add path
+export PATH="/home/robin/bin/:$PATH"

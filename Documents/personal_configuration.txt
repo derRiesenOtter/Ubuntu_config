@@ -14,3 +14,4 @@ github zu known hosts hinzugefügt (ssh-keyscan github.com >> ~/.ssh/known_hosts
 latex_sources hinzugefügt (git clone git@github.com:asishallab-group/Latex_Sources.git)
 zsh configuration changed - see .zshrc
 mkpdf erstellt und ausführbar gemacht (chmod u+x mkpdf) und in bin abgelegt
+Konfiguration in git gespeichert (git init, git add "files", git commit -m "message", git remote add origin git@..., git push -u origin master, git branch --delete master)

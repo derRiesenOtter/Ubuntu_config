@@ -2,4 +2,4 @@ filename=$1
 pdflatex $filename
 pdflatex $filename
 evince "${filename%???}"pdf &
-rm *log *aux *out *nav *snm *toc
+rm *log *aux *out *nav *snm *toc *vrb

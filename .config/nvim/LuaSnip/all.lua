@@ -145,7 +145,7 @@ return{
         \setbeamertemplate{footline}[pagenumber]
 
         \title{<>}
-        \author{Prof. Dr. Asis Hallab}
+        \author{Asis Hallab}
         \institute{Technische Hochschule Bingen}
         \date{<> - <>}
 
@@ -158,6 +158,42 @@ return{
         \end{document}
       ]],
       { i(1), i(2), i(3), i(4)}
+    )
+  ),
+
+  s("uebung", 
+    fmta(
+      [[
+      \documentclass[a4paper,12pt]{report}
+      \usepackage[latexsym,url,praphicx}
+      \usepackage[
+        colorlinks=true,
+        urlcolor=blue,
+        linkcolor=blue]
+        {hyperref}
+      
+      \usepackage{ngerman}
+      \usepackage[utf8]{inputenc}
+
+      \setlength{\parindent}{0pt}
+      \setlength{\parskip}{5pt}
+      \setlength{\arraycolsep}{1mm}
+      \setlength{\unitlength}{1cm}
+
+      \setlength{\topmargin}{-1cm}
+      \setlength{\oddsidemargin}{-1cm}
+      \setlength{\evensidemargin}{-1cm}
+      \setlength{\textwidth}{17cm}
+      \setheight{\textheight}{24cm}
+
+      \pagestyle{myheadings}
+      \markright{{\bf Bioinformatik Übung (<>), Asis Hallab \hfill\today}\hfill}
+
+      \begin{document}
+      <>
+      \end{document}
+      ]],
+      { i(1), i(2)}
     )
   ),
 }

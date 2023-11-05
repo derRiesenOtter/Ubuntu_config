@@ -55,7 +55,7 @@ return{
     fmta(
       [[
         \begin{figure}
-          \includegraphics[width=\textwidth]{<>}
+          \includegraphics[width=\textwidth]{./figures/<>}
           \caption{<>}
         \end{figure}
       ]],
@@ -108,6 +108,32 @@ return{
     fmta(
       "\\texttt{<>}",
       { i(1) }
+    )
+  ),
+
+  -- center
+  s("center", 
+    fmta(
+      [[
+        \begin{center}
+          <>
+        \end{center}
+      ]],
+      { i(1) }
+    )
+  ),
+
+  -- table 
+  s("table",
+    fmta(
+      [[
+        \begin{tabular}{ <> }
+          \hline
+          <>
+          \hline
+        \end{tabular}
+      ]],
+      { i(1), i(2) }
     )
   ),
 
